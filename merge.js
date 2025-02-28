@@ -16,6 +16,16 @@ base.themes.push(
     style: { ...dark, "background.appearance": "blurred" },
   },
   {
+    name: "Min Dark (Opaque)",
+    appearance: "dark",
+    style: {
+      ...dark,
+      background: "#1A1A1A",
+      "status_bar.background": "#1A1A1A",
+      "title_bar.background": "#1A1A1A",
+    },
+  },
+  {
     name: "Min Light (Solid)",
     appearance: "light",
     style: light,
@@ -24,6 +34,16 @@ base.themes.push(
     name: "Min Light (Blurred)",
     appearance: "light",
     style: { ...light, "background.appearance": "blurred" },
+  },
+  {
+    name: "Min Light (Opaque)",
+    appearance: "light",
+    style: {
+      ...light,
+      background: "#FFFFFF",
+      "status_bar.background": "#FFFFFF",
+      "title_bar.background": "#FFFFFF",
+    },
   },
 );
 
